@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/3.0.1/github-markdown.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.18.1/lib/index.min.js">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markdown-it-texmath@0.6.5/css/texmath.css">
+<link rel="stylesheet" href="https://gitcdn.xyz/repo/goessner/mdmath/master/css/vscode-texmath.css">
+
+</head>
+<body class="markdown-body">
+<h1 id="terminal-brick-breaker" data-line="0" class="code-line"><strong>TERMINAL BRICK BREAKER</strong></h1>
+<h2 id="overview" data-line="2" class="code-line"><strong>Overview</strong></h2>
+<p data-line="4" class="code-line">Terminal brickbreaker is a terminal version of the popular brick breaker arcade game which involves using Python3 and basic libraries to implenent it.</p>
+<h2 id="concepts" data-line="6" class="code-line"><strong>Concepts</strong></h2>
+<p data-line="8" class="code-line">It uses various concepts from Object Oriented Programming such as:</p>
+<p data-line="10" class="code-line">Polymorphism: Some of the methods perform different functions for different classes and some functions are overwritten by subclasses. Eg: Display, move and damage.</p>
+<p data-line="12" class="code-line">Abstraction: All the methods for each object define the function but the exact functionality is hidden from the users and can be used as the user wants as long as the correct parameters are supplied.</p>
+<p data-line="14" class="code-line">Encapsulation: Class and object based approach for every element. Every element such as ball, paddle, brick, board, etc. is a class and has the required objects to implement the functionality.</p>
+<p data-line="16" class="code-line">Inheritance: Classes that import from other super classes because they have some common attributes. Eg: Bricks, powerups.</p>
+<h2 id="running-instructions" data-line="18" class="code-line"><strong>Running Instructions</strong></h2>
+<p data-line="20" class="code-line">Use pip3 to install colorama, sys, tty, termios, signal and time. Run python3 <a href="http://main.py" data-href="http://main.py">main.py</a> and start playing</p>
+<h2 id="controls" data-line="22" class="code-line"><strong>Controls</strong></h2>
+<p data-line="24" class="code-line">Use a to move paddle left and d to move paddle right. Use space to launch ball and q to quit game. Ball can be launched only during the paddle attach powerup and during the start of each game or when a life is lost.</p>
+<h2 id="scoring" data-line="26" class="code-line"><strong>Scoring</strong></h2>
+<p data-line="28" class="code-line">Scoring is assigned differently for each type of brick depending on the present strength of that brick. Low Level bricks are worth 10 points, medium level bricks give 10 X strength + 5 points for each hit and high level bricks give 10 X strength + 5 points for each hit.</p>
+<h2 id="lives" data-line="30" class="code-line"><strong>Lives</strong></h2>
+<p data-line="32" class="code-line">There are three lives at the beginning of each game and whenever a life is lost the game resets.</p>
+
+</body></html>
