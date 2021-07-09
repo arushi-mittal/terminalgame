@@ -18,7 +18,10 @@ Inheritance: Classes that import from other super classes because they have some
 
 ## **Running Instructions**
 
-Use pip3 to install colorama, sys, tty, termios, signal and time. Run python3 main.py and start playing
+```bash
+$ pip3 install -r requirements.txt
+$ python3 main.py
+```
 
 ## **Controls**
 
