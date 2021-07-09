@@ -34,3 +34,8 @@ Scoring is assigned differently for each type of brick depending on the present 
 ## **Lives**
 
 There are three lives at the beginning of each game and whenever a life is lost the game resets.
+
+## File Structure
+
+![File Structure](./filestructure.png)
+
