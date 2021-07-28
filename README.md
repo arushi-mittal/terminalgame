@@ -1,4 +1,4 @@
-# **TERMINAL BRICK BREAKER**
+# **Terminal Brick Breaker**
 
 ## **Overview**
 
