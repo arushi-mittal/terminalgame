@@ -4,6 +4,8 @@
 
 Terminal brickbreaker is a terminal version of the popular brick breaker arcade game which involves using Python3 and basic libraries to implenent it.
 
+A demonstration of the game can be viewed [here](https://iiitaphyd-my.sharepoint.com/:v:/g/personal/arushi_mittal_students_iiit_ac_in/ESjOUwgleSVOi2KRJWVArCsBqAu69-D5AKng0_YNyYzTTg?e=zmB53Q)
+
 ## **Concepts**
 
 It uses various concepts from Object Oriented Programming such as:
@@ -23,7 +25,7 @@ $ pip3 install -r requirements.txt
 $ python3 main.py
 ```
 
-## **Gameplay**
+## **Game Set Up**
 
 The game is played in a grid, defined by a Python array in a window of approximately the same dimensions as the terminal window. The positions of each object within this window are described as a set of `x` and `y` coordinate pairs, which can be mapped to the 2D array defined in the game board.
 
@@ -47,3 +49,7 @@ There are three lives at the beginning of each game and whenever a life is lost 
 
 ![File Structure](./filestructure.png)
 
+## Game In Action 
+
+![Game Screenshot](./game1.png)
+![Game Screenshot](./game2.png)
